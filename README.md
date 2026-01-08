@@ -11,19 +11,20 @@
 3.  **The "Toxic" Baseline:** "Water Leaks" and "Unreturned Deposits" are universal dealbreakers (90% Negative Sentiment) across all markets.
 4.  **Market Comparison:** UIUC is a high-performing market (**3.74 Stars**) compared to distressed markets like BYU (**3.15 Stars**).
 
-## 🔍 Visual Analysis Highlights
+## 🔍 Analysis Highlights
 
 ### 1. What Drives Tenant Sentiment?
-*Analyzed sentiment polarity for 15 key topics. "Gyms" drive delight; "Deposits" drive hatred.*
-*(Insert screenshot of your Thumbs Up/Down Chart here)*
+Analyzed sentiment polarity for 15 key topics. 
+*   **Result:** Lifestyle amenities like "Gyms" and "Tours" drive positive sentiment, while financial friction points like "Deposits" and "Rent" drive negative sentiment.
 
 ### 2. The Impact of Speed
-*Measured the correlation between response time and star rating. Fast responses correlate with higher satisfaction.*
-*(Insert screenshot of your Red/Green Stacked Bar Chart here)*
+Measured the correlation between response time and star rating. 
+*   **Result:** Fast responses (<24 hours) correlate with a 3.8-star average. Responses taking longer than a month drop the average to 3.2 stars.
 
 ### 3. Strategic Priority Matrix
-*Identified "Fix vs. Market" priorities. Maintenance is the highest volume topic.*
-*(Insert screenshot of your Treemap or Ladder Chart here)*
+Identified "Fix vs. Market" priorities for the UIUC market.
+*   **Top Priority (Fix):** Security Deposits and Cleaning (Lowest Rated).
+*   **Top Priority (Market):** Gyms and Leasing Tours (Highest Rated).
 
 ## 🛠️ Methodology
 1.  **Data Extraction:** Processed raw CSV data containing business info, reviews, and pre-computed token/sentiment data.
